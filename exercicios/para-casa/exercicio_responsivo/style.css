@@ -1,0 +1,100 @@
+
+body{ 
+    color: rgb(4, 26, 26);
+    background-color: rgb(184, 184, 176);
+    font-family: 'Ubuntu', sans-serif;
+    font-size:105%;
+   
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items:center;
+    padding: 16px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+h1{ 
+    color: rgb(233, 15, 178);
+    text-align: center;
+    background-color:rgb(8, 8, 6);
+}
+
+h2{
+    color: rgb(179, 17, 179);
+    padding: 50px;
+    text-align: center;
+}
+
+h3{
+    color: darkmagenta;
+}
+h4{
+    color: black;
+   
+
+}
+main img{
+    width: 16rem;
+    height: 8em;
+    border: 3.125rem;
+    border-style:groove;
+    justify-content: center;
+}
+
+footer img{
+
+    width: 3.438rem;
+    border-radius: 12.5em;
+    border-style: dashed;
+    display:block;
+    background-color: rgb(233, 15, 178);
+    
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    display: inline-block;
+    padding: 1.25em;
+    align-items: center;
+}
+@media (min-width:400px) and (max-width:1000px){
+
+    body{background-color: burlywood;
+    }
+    h1{ color:brown; 
+    }
+    h2{color: white;
+    }
+    h3{color: white;
+    }
+    h4{color: white;
+    }
+
+ }
+
+
+
